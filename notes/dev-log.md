@@ -34,3 +34,12 @@ label
 
 
 - I finished the first module of the web designer course. Now on to CSS
+
+no se por que me costo tanto poner una foto de fondo cuando chatgpt me tiro
+
+body {
+	background-image: url("pics/pawback.jpg");
+}
+
+las rutas de windows son con \ pero esto te pide /
+igual habia probado 20 veces con distintas formas incluso tirando la ruta completa desde C:/users/juani etc y tampoco andaba

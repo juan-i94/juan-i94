@@ -1,0 +1,14 @@
+h1, h2 {
+	text-align: center;
+}
+main {
+	background-color: darkolivegreen;
+	width: 80%;
+	margin: 10%;
+}
+#wildfood {
+	width: 50%;
+}
+body {
+	background-image: url("pics/pawback.jpg");
+}
