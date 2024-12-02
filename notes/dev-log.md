@@ -1,45 +1,48 @@
 # Dev Log
 
+## 2024-08-20
+Installed Ubuntu Server on my old computer, took me a good 3 or 4 hours and couldn't get the VPN (WireGuard) to work
+
+What I learnt:
+SSH, Static IP's, SUDO, updating the system, unattended-upgrades, update-notifier, NANO, network configuration, Samba, Cockpit
+
+## 2024-10-22
+
+Installed Jellyfin on the server.
+Finally Fixed the WireGuard VPN. The problem was that my ISP didn't give me access to the router configuration. 
+I found the router password online and I was able to forward the necessary ports to make it work. The VPN works via DuckDNS
+
+Learnt:
+Users, Groups, Permissions, VPN's, DNS, Port Forwarding, 
+
+## 2024-11-16
+
+Installed Syncthing as alternative to Samba, still not sure which one I prefer. 
+One is a manual way of sharing files and the other one syncs automaticlly but I'm looking for an alternative to Google Photos, and Syncthing doesn't really work for my laptop as it has low storage capacity and my need is just to upload things to the server not have the files on both devices.
+
 ## 2024-11-19
 
-- Learning to use github while writing an html doc
+- Learning to use github while writing an html doc (free code camp)
 
-- i took the html course in freecodecamp and can't remember much so i'm gonna try to replicate the cat photo app
+## 2024-11-26
 
-<!-- 
-<img src="link goes here"> to put images in the page
-<a href="link goes here">text</a> to link to other pages
--->
+Installed SteamCMD
+Installed a Valheim Server.
+Installed UFW
+Installed Termius on desktop and laptop (I had been using it on my phone previously)
 
-hardest things to remember so far will be 
+Bought an Arduino UNO, still not sure what to do with it. It came with a few sensors, cables, leds, switches. Maybe I'll try setting up an irrigation system for my gf.
 
-element
-	attributes
+Learnt: 
+Curl, reading systemd logs, setting up a service.
+When I installed UFW it messed up a lot of my stuff as I didn't make exceptions for the VPN port for example. so I had to do that. Also learnt a bit more about port forwarding as I had a little trouble with the Valheim Server ports.
+A little C++
 
-anchors <a>
-	href, target
-figure
-figcaption
-images <img>
-	src, alt
-forms
-	action
-button
-	type
-fieldset
-input
-	type, name, id, value, checked, placeholder
-label
-	for
+## 2024-11-29
 
+Tried Installing mods to the Valheim Server, something didn't work. had to reinstall everything. In the end it worked.
 
-- I finished the first module of the web designer course. Now on to CSS
-
-no se por que me costo tanto poner una foto de fondo cuando chatgpt me tiro
-
-body {
-	background-image: url("pics/pawback.jpg");
-}
-
-las rutas de windows son con \ pero esto te pide /
-igual habia probado 20 veces con distintas formas incluso tirando la ruta completa desde C:/users/juani etc y tampoco andaba
+I learnt:
+BACK UPS ARE SUPER SO VERY IMPORTANT
+I started using Termius' SFTP option to move around the server files, like the world save files.
+Had a little intro to SSH keys but didn't set it up yet
