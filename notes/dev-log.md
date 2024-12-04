@@ -46,3 +46,18 @@ I learnt:
 BACK UPS ARE SUPER SO VERY IMPORTANT
 I started using Termius' SFTP option to move around the server files, like the world save files.
 Had a little intro to SSH keys but didn't set it up yet
+
+## 2024-12-03
+
+Tried a bit more arduino, mostly hardware side.
+
+## 2024-12-04
+
+Found an old HDD and trying to hook it up to the server
+running lsblk shows the list of "block devices"
+sudo fdisk -l gives me a more detailed disk partition table.
+
+sudo mount /dev/sdb1 /mnt/tempdisk This mounts the HDD to a temp dir
+sudo umount /mnt/tempdisk
+
+formatted with mkfs.ext4 and permanently mounted it to /mnt/sdb1
