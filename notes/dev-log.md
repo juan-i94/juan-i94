@@ -61,3 +61,14 @@ sudo mount /dev/sdb1 /mnt/tempdisk This mounts the HDD to a temp dir
 sudo umount /mnt/tempdisk
 
 formatted with mkfs.ext4 and permanently mounted it to /mnt/sdb1
+
+## 2025-01-01
+
+I tried instaling linux lite on my laptop last night. 
+some problems I've encountered:
+· tocuhpad scrolling is inverted
+· tablet mode doesn't work properly: 
+	1 for example the clicking is weird 
+	2 keyboard doesn't show up.
+
+I'm gonna try other distros so I downloaded Virtual Box on my desktop so I don't destroy my laptop ssd by formating multiple times.
